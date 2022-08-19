@@ -32,7 +32,7 @@ class Game {
   // nextRoundRange = [120,200]; // seconds
   nextRoundRange = [10,15];      // DEBUG
   roundLength = 120;             // seconds
-  leaderboardTime = 20;          // seconds
+  leaderboardTime = 15;          // seconds
   framerate = 30;          // NOTE: actual framerate is all over the place!!
   
   scoreBands = [ [20,5], [40,4], [60,3], [80,2], [120,1] ];
@@ -132,7 +132,6 @@ class Game {
   }
 
   makeShot(username, x, y) {
-    debugger;
     this.players[username].x = x;
     this.players[username].y = y;
     this.players[username].shot = true;

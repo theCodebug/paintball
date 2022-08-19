@@ -32,7 +32,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(800, 600);
+  createCanvas(1600, 800);
   frameRate(30);
   
   ding.setVolume(0.7);
